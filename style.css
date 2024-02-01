@@ -1,0 +1,83 @@
+/*Je vais centrer la navbar et espacer son rectangle*/
+.navbar {
+   margin-left: 55px;
+   text-align: center;
+   margin-top: 25px;
+}
+
+/*Je vais enlever les tirets en bas des liens et leurs donner une couleur noir*/
+.navbar a{
+    padding-left: 55px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar b
+{
+    margin-right: 255px;
+}
+
+/*Je vais mettre mon texte et l'image en face l'un de l'autre*/
+.display
+{
+    display: inline-block;
+    margin-left: 300px;
+}
+
+/*Je vais rédimensionner l'image ici et espacer l'élement d'en haut*/
+img
+{
+    height: 250px;
+    width: 250px;
+    padding-top: 75px;
+}
+
+/*Je vais ajouter une bordure à l'élément my portfolio, le centrer, ajouter des rondeurs, donner un weight et réduire la taille de l'élément*/
+.display p
+{
+    border: 6px solid rgb(248, 248, 69);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 115px;
+}
+
+h1
+{
+    font-size:xx-large;
+}
+/*Nous allons sur une même ligne ordonnée la section 2*/
+.secondSectionAffichage
+{
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#alignage
+{
+    margin-left: 35%;
+    padding-top: 10%;
+}
+
+#service
+{
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 0%;
+}
+
+.section2
+{
+    background-color: rgb(238, 218, 86);
+}
+
+hr{
+    color: black;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
